@@ -35,3 +35,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # admin_dashboard
+
+db cmds
+npx prisma generate
+npx prisma db push
+npx prisma db reset
+
+payment done by this process
+
+stripe login
+
+stripe listen --forward-to localhost:3000/api/webhook
+> Ready! You are using Stripe API Version [2023-10-16]. Your webhook signing secret is whsec_ea4b117c4ceeea1994a6ad38142704bb3e2b62bdfe7e2171508c407fd4616881 (^C to quit)
